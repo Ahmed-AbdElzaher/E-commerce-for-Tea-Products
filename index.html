@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link mr-2" href="#"><i class="fas fa-home"></i> Home<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link mr-2" href="#"><i class="fas fa-user-circle"></i> My Account<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link mr-2" href="#"><i class="fas fa-shopping-cart"></i> My Cart<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link mr-2" href="#"><i class="fas fa-sign-in-alt"></i> Login<span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Social Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                        <a class="dropdown-item" href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+                        <a class="dropdown-item" href="#"><i class="fab fa-youtube-square"></i> YouTube</a>
+                        <a class="dropdown-item" href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <a class="nav-link mr-2" href="#"><img src="img/ar.png" id="ar"> العربية<span
+                        class="sr-only">(current)</span></a>
+            </form>
+
+        </div>
+
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img_7775.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img_7776.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- product -->
+    <section id="our-prudct">
+        <div class="about-header">
+            <h1 class="text-center">EXPLORE AHMAD TEA</h1>
+        </div>
+        <div class="row">
+            <div class="col-xl-1 col-lg-0 col-md-0 col-sm-0"></div>
+            <nav class="col-xl-10 col-lg-12 col-md-12 col-sm-12">
+                <div class="nav nav-tabs justify-content-between" id="nav-tab" role="tablist">
+                    <a class="nav-link active" id="Black-Tea-tab" data-toggle="tab" href="#Black-Tea" role="tab"
+                        aria-controls="Black-Tea" aria-selected="true">Black Tea</a>
+                    <a class="nav-link " id="Fruits-Black-tab" data-toggle="tab" href="#Fruits-Black" role="tab"
+                        aria-controls="Fruits-Black" aria-selected="false">Fruits Black</a>
+                    <a class="nav-link" id="Green-Tea-tab" data-toggle="tab" href="#Green-Tea" role="tab"
+                        aria-controls="Green-Tea" aria-selected="false">Green Tea</a>
+                    <a class="nav-link" id="Herbal-Infusions-tab" data-toggle="tab" href="#Herbal-Infusions" role="tab"
+                        aria-controls="Herbal-Infusions" aria-selected="false">Herbal Infusions</a>
+                    <a class="nav-link" id="Ahmad-Tea-Gifts-tab" data-toggle="tab" href="#Ahmad-Tea-Gifts" role="tab"
+                        aria-controls="Ahmad-Tea-Gifts" aria-selected="false">Ahmad Tea Gifts</a>
+                    <a class="nav-link" id="Caddies-tab" data-toggle="tab" href="#Caddies" role="tab"
+                        aria-controls="Caddies" aria-selected="false">Caddies</a>
+                    <a class="nav-link" id="Cold-Brew-Iced-Tea-tab" data-toggle="tab" href="#Cold-Brew-Iced-Tea"
+                        role="tab" aria-controls="Cold-Brew-Iced-Tea" aria-selected="false">Cold Brew Iced Tea</a>
+                    <a class="nav-link" id="Special-Range-tab" data-toggle="tab" href="#Special-Range" role="tab"
+                        aria-controls="Special-Range" aria-selected="false">Special Range</a>
+
+                    <a class="nav-link" id="Loose-Tea-tab" data-toggle="tab" href="#Loose-Tea" role="tab"
+                        aria-controls="Loose-Tea" aria-selected="false">Loose Tea</a>
+                </div>
+            </nav>
+            <div class="col-xl-1 col-lg-0 col-md-0 col-sm-0"></div>
+
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="Black-Tea" role="tabpanel" aria-labelledby="Black-Tea-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/1/1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">English Breakfast - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">21.40 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/1/2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Earl Grey - 100 Teabags
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">54.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/1/3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">English Breakfast - 100 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">79.71 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/1/4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cardamom Tea - 100 Teabags
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">62.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Fruits-Black" role="tabpanel" aria-labelledby="Fruits-Black-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/2/5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lemon Fruit Black Tea - 20 Foil</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.60 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/2/6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vanilla Tranquillity Tea - 20 Foil</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.60 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/2/7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blackcurrant Fruit Black Tea - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.60 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/2/8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Raspberry Fruit Black Tea - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.60 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="Green-Tea" role="tabpanel" aria-labelledby="Green-Tea-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/3/9.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jasmine Green Tea - 25 Teabags
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">15.80 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/3/10.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loose Mint Green Tea - 100g
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/3/11.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mint Green Tea - 100 Teabags
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">59.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/3/12.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loose Green Tea - 100g
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">19.75 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="Herbal-Infusions" role="tabpanel"
+                aria-labelledby="Herbal-Infusions-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/4/13.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lemon & Ginger Infusion - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">29.70 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/4/14.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Wild Strawberry Infusion - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">29.70 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/4/15.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fruit & Herbal Selection - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">31.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/4/16.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rosehip & Cherry - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">29.70 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="Ahmad-Tea-Gifts" role="tabpanel"
+                aria-labelledby="Ahmad-Tea-Gifts-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/5/17.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tea treasure gift box </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">230.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/5/18.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tea Keeper
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque itaque placeat placeat laborum ipsa quos
+                                        suscipit dolor corporis, libero pariatur odit velit. Quo asperiores amet eveniet
+                                        aliquid!</p>
+                                    <a href="#" class="btn btn-primary">412.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/5/19.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tea chest box - Limited Edition
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">180.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/5/17.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tea treasure gift box</h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">412.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="Caddies" role="tabpanel" aria-labelledby="Caddies-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/6/21.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ceylon Tea - 100g Caddy
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">54.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/6/22.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Earl Grey Loose - 100g Caddy
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">64.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/6/23.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Earl Grey - 200g Caddy
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">97.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/6/24.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Darjeeling Loose - 100g Caddy
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">78.20 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="Cold-Brew-Iced-Tea" role="tabpanel"
+                aria-labelledby="Cold-Brew-Iced-Tea-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/7/25.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cold Brew Iced Tea Bundle Offer
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">120.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/7/26.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lemon Iced Tea - 20 Foil Teabags
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">37.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/7/27.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Peach Cold Brew - 20 Foil Teabags
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">37.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/7/28.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Green Tea Mango Iced Tea - 20 Foil teabags
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">37.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="Special-Range" role="tabpanel"
+                aria-labelledby="Special-Range-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/8/29.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lemon Vitality Green - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">23.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/8/30.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mango & Lychee Green - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/8/29.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vitality Lemon Green - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">23.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/8/30.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lychee & Mango Green - 20 Foil
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="Loose-Tea" role="tabpanel" aria-labelledby="Loose-Tea-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/9/33.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loose Jasmine Green Tea - 100g
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">27.25 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/9/34.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loose Mint Green Tea - 100g
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">24.50 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/9/35.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loose English Breakfast - 250g
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">52.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" style="width:auto;">
+                                <img src="img/product/9/36.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loose Green Tea - 250g
+                                    </h5>
+                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Mollitia ea magni enim. Nemo itaque placeat laborum ipsa quos suscipit dolor
+                                        corporis, libero pariatur odit velit. Quo asperiores amet eveniet aliquid!</p>
+                                    <a href="#" class="btn btn-primary">42.00 EGP</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-left align-items-center">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning"><img src="img/logo.png" id="logo"></h5>
+                    <p><a class="text-white" href="#"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+                    <p><a class="text-white" href="#"><i class="fab fa-instagram-square"></i> Instagram</a></p>
+                    <p><a class="text-white" href="#"><i class="fab fa-youtube-square"></i> YouTube</a></p>
+                    <p><a class="text-white" href="#"><i class="fab fa-twitter-square"></i> Twitter</a></p>
+
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Product</h5>
+                    <p><a href="#" class="text-white">Black Tea</a></p>
+                    <p><a href="#" class="text-white">Fruits Black</a></p>
+                    <p><a href="#" class="text-white">Green Tea</a></p>
+                    <p><a href="#" class="text-white">Herbal Infusions</a></p>
+                    <p><a href="#" class="text-white">Ahmad Tea Gifts</a></p>
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase font-weight-bold text-warning">Spacial </h5>
+                    <p><a href="#" class="text-white">Caddies</a></p>
+                    <p><a href="#" class="text-white">Cold Brew Iced Tea</a></p>
+                    <p><a href="#" class="text-white">Special Range</a></p>
+                    <p><a href="#" class="text-white">Loose Tea</a></p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase font-weight-bold text-warning">Name</h5>
+                    <p><i class="fas fa-home mr-3"></i>West Valley City, UT 84119</p>
+                    <p><i class="fas fa-envelope mr-3"></i>AhmedTea@gmail.com</p>
+                    <p><i class="fas fa-phone mr-3"></i>+92 5473214625</p>
+                    <p><i class="fas fa-print mr-3"></i>+01 569 421 33</p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-12">
+                    <p>© Ahmad Tea 2021 - All Rights Reserved by: <a href="#"><strong class="text-warning"> Codendot
+                            </strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
